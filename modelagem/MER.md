@@ -95,11 +95,15 @@ Um prontuário pode registrar nenhuma, uma ou várias consultas ao longo do temp
 - Alergias
 - Observações clínicas
 
-### Observações
+### ATENDIMENTO 
+int id_atendimento PK
+date data_atendimento
+string descricao 
+string observacoes 
+int id_consulta FK
+int id_prontuario FK 
 
-- CPF, CRM, ID_Especialidade, ID_Consulta e ID_Prontuario são identificadores.
-- Endereço é um atributo composto.
-- Data efetiva de devolução não se aplica a este sistema.
-- Não foram definidos atributos multivalorados.
-- Não foram definidos atributos derivados.
+### MEDICO_ESPECIALIDADE 
+int id_medico PK, FK 
+int id_especialidade PK, FK 
 
