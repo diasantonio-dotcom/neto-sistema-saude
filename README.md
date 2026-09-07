@@ -2,7 +2,7 @@
 sistema de saúde 
 ## Descrição de minimundo
 O projeto consistem na modelagem conceitual de um banco de dados para sistema de gerenciamento de uma unidade de saúde
-o sistema tem como objetivo organizar as informações do paciente, médico, especialistas, consultas e prontúarios.
+o sistema tem como objetivo organizar as informações do pacientes, médicos, especialistas, consultas e prontúarios.
 A unidade de saúde necessita controlar os dados do paciente, os profissionais responsáveis pelos atendimentos, suas especialidades, as consultas realizadas e o histórico clínico dos pacientes.
 
 ## Contexto da Aplicação
