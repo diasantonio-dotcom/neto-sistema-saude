@@ -8,13 +8,13 @@ Este repositório contém a modelagem conceitual de dados (MER) de um **Sistema 
 
 ### Contexto e problema real
 
-Redes de saúde municipais/regionais — compostas por hospitais, Unidades Básicas de Saúde (UBS), laboratórios e clínicas — frequentemente enfrentam problemas de **fragmentação de informação**: prontuários em papel, exames que se perdem entre unidades, prescrições sem histórico centralizado e dificuldade em rastrear internações e ocupação de leitos.
+Redes de saúde municipais e regionais.Compostas por hospitais, Unidades Básicas de Saúde (UBS), laboratórios e clínicas, frequentemente enfrentam problemas de **fragmentação de informação**: prontuários em papel, exames que se perdem entre unidades, prescrições sem histórico centralizado e dificuldade em rastrear internações e ocupação de leitos.
 
 O **Sistema de Gestão de Saúde (SGS)** tem como objetivo resolver esse problema centralizando digitalmente as informações de pacientes, profissionais de saúde, atendimentos, exames, prescrições e internações em uma rede de unidades de saúde, permitindo que qualquer unidade da rede tenha acesso ao histórico clínico completo do paciente.
 
 ### Aplicação
 
-Trata-se de um **sistema de prontuário eletrônico e gestão hospitalar/ambulatorial**, utilizado por:
+Trata-se de um **sistema de prontuário eletrônico e gestão hospitalar e ambulatorial**, utilizado por:
 - Recepcionistas (cadastro e agendamento);
 - Médicos (consultas, prescrições, solicitação de exames);
 - Enfermagem/equipe técnica (internações, controle de leitos);
@@ -24,7 +24,7 @@ Trata-se de um **sistema de prontuário eletrônico e gestão hospitalar/ambulat
 
 1. Cada **paciente** possui exatamente **um prontuário**, que concentra todo o seu histórico clínico.
 2. Um **médico** pode atuar em **uma ou mais especialidades** e pode trabalhar em **uma ou mais unidades de saúde**.
-3. Uma **consulta** está sempre associada a um médico, um paciente (via prontuário) e uma unidade de saúde, em uma data/hora específica.
+3. Uma **consulta** está sempre associada a um médico, um paciente (via prontuário) e uma unidade de saúde, em uma data e hora específica.
 4. Uma consulta pode gerar **zero ou mais prescrições** e pode solicitar **zero ou mais exames**.
 5. Uma **prescrição** é composta por **um ou mais itens**, sendo cada item referente a um medicamento, com sua própria dosagem e posologia.
 6. Um **paciente** pode possuir **nenhum, um ou vários convênios de saúde**; um convênio atende a muitos pacientes.
@@ -39,5 +39,5 @@ Trata-se de um **sistema de prontuário eletrônico e gestão hospitalar/ambulat
 - Registro e consulta do histórico no prontuário eletrônico;
 - Emissão de prescrições médicas com múltiplos medicamentos;
 - Solicitação e registro de resultados de exames;
-- Gestão de convênios/planos de saúde vinculados aos pacientes;
+- Gestão de convênios e planos de saúde vinculados aos pacientes;
 - Controle de internações e ocupação de leitos por unidade.
