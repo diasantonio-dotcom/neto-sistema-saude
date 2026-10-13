@@ -271,4 +271,3 @@ erDiagram
     }
 ```
 
-> **Observação:** o relacionamento N:N entre `Paciente` e `ConvenioSaude` carrega atributos próprios (`numero_carteirinha`, `data_adesao`). No modelo lógico, esse relacionamento se converterá em uma tabela associativa (ex: `PacienteConvenio`), da mesma forma como `ItemPrescricao` já resolve, no nível conceitual, o relacionamento N:N entre `Prescrição` e `Medicamento`.
